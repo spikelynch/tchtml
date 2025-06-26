@@ -24,13 +24,11 @@ Install [uv](https://docs.astral.sh/uv/), then
 
 ## Usage
 
-    > uv run  src/tchtml/tchtml.py tests/crates/languageFamily <-- will make a preview file in the l`anguageFamily` dir 
+    > uv run  src/tchtml/tchtml.py tests/crates/languageFamily <-- will make a preview file in the `languageFamily` dir 
 
-How to call from your code:
 
-    > uv run  src/tchtml/tchtml.py tests/crates/languageFamily <-- will make a preview file in the l`anguageFamily` dir 
 
-How to call from your code:
+### How to call from your code:
 ```python
 from tinycrate.tinycrate import TinyCrate
 import src.tchtml.tchtml as tchtml
