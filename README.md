@@ -12,6 +12,9 @@ ATM this makes a single HTML page for each *entire* crate and uses very minimal 
 - Static versions of maps
 - Special rendering for stuff like CSV schemas
 
+This works by creating a data structure from an RO-Crate that makes it easy to display each entity in a crate and then feeding that to a Jinja template to display. Each property for example has both its resolved URI (so it can be linked to the definition) and its label and references to other entities are pre-populated with the `name` of the target entity to make it trivial to display.
+
+
 ## Installation
 
 Install [uv](https://docs.astral.sh/uv/), then
